@@ -1,0 +1,324 @@
+<!doctype html>
+
+<script src="https://kit.fontawesome.com/8c6b6fca0e.js" crossorigin="anonymous"></script>
+
+<!-- STYLE PART -->
+<style type="text/css">
+
+/*	body {
+		font-family: "Tahoma", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 300;
+		font-size: 16px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+		text-align: center;
+	}*/
+
+	h1 {
+		font-weight: 300;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+
+	}
+
+	h1.title {
+		font-weight: 300;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		color:#222222;
+	}
+
+	h2.title {
+		font-weight: 300;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		color:#222222;
+	}
+
+	span.conference {
+		font-size:20px;
+	}
+
+	span.authors {
+		font-size:18px;
+	}
+
+
+	h2 {
+		text-align: center;
+		font-weight: normal;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	p {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		color:#222222;
+	}
+
+	span.abstract {
+		justify-content: center
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		color:#222222;
+		text-align: justify;
+	}
+
+	span.paper{
+		justify-content: center
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		color:#222222;
+		text-align: justify;
+		font-size:20px;
+	}
+
+	span.conference {
+		justify-content: center
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		color:#222222;
+		text-align: justify;
+		font-size:16px;
+	}
+
+	span.authors {
+		justify-content: center
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		color:#222222;
+		text-align: justify;
+		font-size:16px;
+	}
+
+.disclaimerbox {
+		background-color: #eee;
+		border: 1px solid #eeeeee;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		padding: 20px;
+	}
+
+	sup.affiliation {
+		font-size:10px;
+		color:#555555;
+	}
+	
+	video.header-vid {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	img.rounded {
+		border: 1px solid #eeeeee;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	a:link,
+	a:visited {
+		color: #1367a7;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #208799;
+	}
+
+	td.dl-link {
+		height: 160px;
+		text-align: center;
+		font-size: 22px;
+	}
+
+	hr.bold {
+		border: 0;
+		height: 2px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+
+	.author_image {
+		text-align: center;
+	}
+
+</style>
+	
+<!-- HTML PART -->
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+	<title>Uncertainty-Aware Deep Multi-View Photometric Stereo</title>
+	<meta property="og:image" content="" />
+	<meta property="og:title" content="Uncertainty-Aware Deep Multi-View Photometric Stereo"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <!-- Custom styles for this template -->
+  <!-- <link href="sticky-footer-navbar.css" rel="stylesheet"> -->
+</head>
+
+<!--Main page starts here-->
+<body>
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #000000;">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+   			<span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
+          </li>
+         </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="jumbotron jumbotron-fluid">
+	  <div class="container">
+  		<div class="pager-header">
+		  	<div class="row justify-content-md-center">
+					<div class="col col-lg-3">
+			  		<br>
+						<img style="height:200px" src="./images/berk.jpg">			
+					</div>
+					<div class="col col-lg-6 text-justify">
+			  		<br>
+						<h2 class="title">Berk Kaya</h2>
+	     			<hr class="my-4">
+					<span class="abstract">I am PhD student in the <a href="https://vision.ee.ethz.ch/">Computer Vision Lab</a> at ETH Zürich under the supervision of <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html">Prof. Dr. Luc Van Gool<a> and <a href="https://suryanshkumar.github.io/">Dr. Suryansh Kumar</a>.
+					</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br><hr><br>
+	<!-- Links -->
+		<div class="container">
+			<div class="row justify-content-md-center">
+			  <div class="col col-md-1"><center>
+			  	<a href="mailto:bekaya@vision.ee.ethz.ch">
+		                    <i class="fa fa-envelope fa-xl"></i> 
+		                </a>
+			  </div>
+		 	  <div class="col col-md-1"><center>
+		 	  	<a href="https://scholar.google.com/citations?user=Lgz3NgkAAAAJ&hl=en">
+		                    <i class="ai ai-google-scholar fa-xl"></i> 
+		                </a>
+			  </div>
+			  <div class="col col-md-1"><center>
+			  	<a href="https://github.com/berk95kaya/">
+		                    <i class="fa fa-github fa-xl"></i>
+		                </a>
+			  </div>
+			  <div class="col col-md-1"><center>
+			  	<a href="https://www.linkedin.com/in/berk-kaya-818991124/">
+		                    <i class="fa fa-linkedin	 fa-xl"></i>
+		                </a>
+				</div>
+				  <div class="col col-md-1"><center>
+			  	<a href="https://twitter.com/berk95kaya">
+		                    <i class="fa fa-twitter fa-xl"></i> </a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<a class = 'anchor' name='publications'></a><br>
+	
+	<h3 style="text-align: center">Selected Publications</h3> <hr class="bold"><br>
+
+	<!-- Publication -->
+	<div class="container">		
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-4">
+				<img style="height:150px" src="./images/cvpr2022.png">			
+			</div>
+			<div class="col col-lg-8 text-justify">
+				<span class="paper"><a href=./documents/uncertainty_aware_deep_multiview_photometric_stereo.pdf>Uncertainty-Aware Deep Multi-View Photometric Stereo</a></span><br><br>
+				<span class="authors">Berk Kaya, Suryansh Kumar, Carlos Oliveira, Vittorio Ferrari, Luc Van Gool</span> <br>
+				<span class="conference">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</span><br>
+				<a href="https://berk95kaya.github.io/UA_MVPS_project_page/"> Project Page </a> 
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+
+		<!-- Publication 2 -->
+	<div class="container">		
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-4">
+				<img style="height:150px" src="./images/setup.png">			
+			</div>
+			<div class="col col-lg-8 text-justify">
+				<span class="paper"><a href=./documents/main_paper_wacv2022.pdf>Neural Radiance Fields Approach to Deep Multi-View Photometric Stereo
+</a></span><br><br>
+				<span class="authors">Berk Kaya, Suryansh Kumar, Francesco Sarno, Vittorio Ferrari, Luc Van Gool</span> <br>
+				<span class="conference">IEEE Winter Conference on Applications of Computer Vision (WACV), 2022</span><br>
+				<a href="https://berk95kaya.github.io/Neural_MVPS_WACV2022/"> Project Page </a> 
+			</div>
+		</div>
+	</div><hr>
+
+
+		<!-- Publication 3-->
+	<div class="container">		
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-4">
+				<img style="height:150px" src="./images/darts.png">			
+			</div>
+			<div class="col col-lg-8 text-justify">
+				<span class="paper"><a href=./documents/main_paper_wacv2022_sarno.pdf>Neural Architecture Search for Efficient Uncalibrated Deep Photometric Stereo</a></span><br><br>
+				<span class="authors">Francesco Sarno, Suryansh Kumar, Berk Kaya, Zhiwu Huang, Vittorio Ferrari, Luc Van Gool</span> <br>
+				<span class="conference">IEEE Winter Conference on Applications of Computer Vision (WACV), 2022</span><br>
+				<a href="https://berk95kaya.github.io/NAS_UPS_WACV2022/"> Project Page </a> 
+			</div>
+		</div>
+	</div><hr>
+
+
+		
+<br><br><br><br>
+
+
+</body>
+
+</html>
